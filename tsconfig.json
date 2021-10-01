@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true, // Necessary for default importing Phaser to pick up types properly
+    },
+    "include": [
+        "**/*.ts"
+    ],
+    "typeRoots": [
+        "./node_modules/phaser/types"
+    ],
+    "types": [
+        "Phaser"
+    ]
+}
