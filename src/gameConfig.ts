@@ -17,8 +17,10 @@ export const gameConfig: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
 
     scale: {
-        width: window.innerWidth,
-        height: window.innerHeight,
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        width: 800,
+        height: 640,
     },
     plugins: {
         scene: [pluginConfig]
@@ -27,15 +29,16 @@ export const gameConfig: Phaser.Types.Core.GameConfig = {
         default: 'matter',
         matter: {
             gravity: {
-                y: 1
+                y: 0.5
             },
-            debug: true,
+            debug: false,
         },
     },
 
     parent: 'game',
     backgroundColor: '#000000',
     scene: GameScene,
+    pixelArt: true,
 };
 
 

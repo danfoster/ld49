@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="2">
+ <editorsettings>
+  <export target="../assets/levels/level1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="main" tilewidth="16" tileheight="16" tilecount="48" columns="8">
+  <image source="../assets/tilesets/main_tileset.png" width="128" height="80"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="15.9079" y="6.04655">
+     <polygon points="0.155705,-0.0778526 -9.86133,9.96513 0.155705,9.99108"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="0" y="5.9687" width="16.0636" height="10.0689"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="0.0259509" y="6.0725">
+     <polygon points="0,0 9.93918,9.86133 0.0778526,9.93918"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="15.9338" y="9.99108">
+     <polygon points="0,0 -5.81299,5.9687 -15.9338,6.00892 -15.9338,-9.99108 0.0661747,-9.99108"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.0519017" y="10.1208">
+     <polygon points="0,0 5.86489,5.81299 15.9481,5.87917 15.9481,-10.1208 -0.0519017,-10.1208"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="10.2595">
+     <polygon points="0,0 5.83894,5.76109 15.8819,5.73514 15.8041,-10.2765 -0.0519017,-10.2246"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="5.94275" y="0" width="10.0573" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="0.129754" y="0" width="9.93918" height="16.0117"/>
+   </objectgroup>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="10.017" y="0.0519017">
+     <polygon points="0,0 5.9168,5.94275 5.98297,15.9481 -10.017,15.9481 -10.017,-0.0519017"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="collides" type="bool" value="false"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.103803" y="5.99465">
+     <polygon points="0,0 5.76109,-5.99465 15.8962,-5.99465 15.8962,10.0054 -0.103803,10.0054"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="5" y="0" width="11" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="6.1244" y="0.0519017">
+     <polygon points="0,0 9.88728,9.91323 9.8756,-0.0519017"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="0.0259509" y="0.0259509" width="15.9857" height="10.043"/>
+   </objectgroup>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="9.99108" y="-0.0259509">
+     <polygon points="0,0 -9.96513,10.043 -9.96513,0.0519017"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0" y="0" width="16" height="16"/>
+    <object id="2" x="10.043" y="0.103803">
+     <polygon points="0,0 5.9168,5.86489 5.95702,15.8962 -10.043,15.8962 -10.043,-0.103803"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="2" x="0" y="5" width="16" height="11"/>
+   </objectgroup>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="3">
+    <object id="2" x="5.9168" y="0.0519017">
+     <polygon points="0,0 -5.89084,5.9168 -5.86489,15.8819 10.017,15.8819 10.0832,-0.0519017"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <wangsets>
+   <wangset name="test1" type="corner" tile="-1">
+    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
+    <wangtile tileid="0" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="1" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="2" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="3" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="4" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="8" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="9" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="10" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="11" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="12" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="16" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="17" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="18" wangid="0,0,0,0,0,0,0,1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="49" name="characters_packed" tilewidth="24" tileheight="24" tilecount="27" columns="9">
+  <image source="../assets/tilesets/characters_packed.png" width="216" height="72"/>
+ </tileset>
+ <layer id="1" name="main" width="40" height="40">
+  <data encoding="csv">
+10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
+4,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,17,18,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,9,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,17,18,18,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+12,2,2,2,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,10,11,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,10,11,0,0,0,0,0,0,0,0,0,17,18,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,10,12,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="player">
+  <object id="1" name="player" gid="58" x="43.3333" y="531" width="24" height="24"/>
+ </objectgroup>
+</map>

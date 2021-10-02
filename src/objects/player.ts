@@ -109,11 +109,11 @@ export class Player extends Phaser.GameObjects.GameObject {
         if (bodyA === this.sensors.left) {
             console.log("bonk-left");
             this.touching.left = true;
-            if (pair.separation > 0.5) this.matterSprite.x += pair.separation - 0.5;
+            if (pair.separation > 0.5) this.matterSprite.x += pair.separation - 0.22;
         } else if (bodyA === this.sensors.right) {
             console.log("bonk-right");
             this.touching.right = true;
-            if (pair.separation > 0.5) this.matterSprite.x -= pair.separation - 0.5;
+            if (pair.separation > 0.5) this.matterSprite.x -= pair.separation - 0.22;
         } else if (bodyA === this.sensors.bottom) {
             this.touching.bottom = true;
         }
